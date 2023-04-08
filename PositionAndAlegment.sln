@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_block_model", "PositionAndAlegment\01_block_model.csproj", "{8C446612-3A5B-42C3-B520-9E3993BD574F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_alignment", "02_alignment\02_alignment.csproj", "{E25BE7C2-210F-4912-B1C1-7004A44F197D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C446612-3A5B-42C3-B520-9E3993BD574F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C446612-3A5B-42C3-B520-9E3993BD574F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C446612-3A5B-42C3-B520-9E3993BD574F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C446612-3A5B-42C3-B520-9E3993BD574F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E25BE7C2-210F-4912-B1C1-7004A44F197D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25BE7C2-210F-4912-B1C1-7004A44F197D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25BE7C2-210F-4912-B1C1-7004A44F197D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25BE7C2-210F-4912-B1C1-7004A44F197D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC8655DB-FBA5-4EEA-B95A-55EF2550E566}
+	EndGlobalSection
+EndGlobal

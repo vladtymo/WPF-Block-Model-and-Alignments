@@ -1,0 +1,42 @@
+﻿<Window x:Class="_02_alignment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_02_alignment"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--Horizontal Alignments-->
+    <!--<Grid Name="myGrid" ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <Button Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left">Left</Button>
+        <Button Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center">Center</Button>
+        <Button Grid.Column="0" Grid.Row="2" HorizontalAlignment="Right">Right</Button>
+        <Button Grid.Column="0" Grid.Row="3" HorizontalAlignment="Stretch">Stretch</Button>
+        <Button Grid.Column="0" Grid.Row="4">Default</Button>
+    </Grid>-->
+
+    <!--Vertical Alignments-->
+    <Grid ShowGridLines="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <Button Grid.Column="0" Grid.Row="0" VerticalAlignment="Top" HorizontalContentAlignment="Left">Top</Button>
+        <Button Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" HorizontalContentAlignment="Right">Center</Button>
+        <Button Grid.Column="2" Grid.Row="0" VerticalAlignment="Bottom" HorizontalContentAlignment="Center">Bottom</Button>
+        <Button Grid.Column="3" Grid.Row="0" VerticalAlignment="Stretch" HorizontalContentAlignment="Right" VerticalContentAlignment="Top">Stretch</Button>
+        <Button Grid.Column="4" Grid.Row="0">Default</Button>
+    </Grid>
+</Window>
