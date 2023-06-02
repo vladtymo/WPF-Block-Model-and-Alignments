@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <!--Horizontal Alignments-->
-    <!--<Grid Name="myGrid" ShowGridLines="True">
+    <Grid Name="myGrid" ShowGridLines="True">
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" />
             <RowDefinition Height="*"/>
@@ -21,10 +21,10 @@
         <Button Grid.Column="0" Grid.Row="2" HorizontalAlignment="Right">Right</Button>
         <Button Grid.Column="0" Grid.Row="3" HorizontalAlignment="Stretch">Stretch</Button>
         <Button Grid.Column="0" Grid.Row="4">Default</Button>
-    </Grid>-->
+    </Grid>
 
     <!--Vertical Alignments-->
-    <Grid ShowGridLines="True">
+    <!--<Grid ShowGridLines="True">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
@@ -38,5 +38,5 @@
         <Button Grid.Column="2" Grid.Row="0" VerticalAlignment="Bottom" HorizontalContentAlignment="Center">Bottom</Button>
         <Button Grid.Column="3" Grid.Row="0" VerticalAlignment="Stretch" HorizontalContentAlignment="Right" VerticalContentAlignment="Top">Stretch</Button>
         <Button Grid.Column="4" Grid.Row="0">Default</Button>
-    </Grid>
+    </Grid>-->
 </Window>
